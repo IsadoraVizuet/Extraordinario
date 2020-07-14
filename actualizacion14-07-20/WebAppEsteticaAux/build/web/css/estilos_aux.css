@@ -1,0 +1,79 @@
+/*** Estilos para el proyecto de la estetica aux ***********/
+
+* {
+  box-sizing: border-box;
+               /*  font-family: Arial, Helvetica, sans-serif;*/
+  font-family: 'Bree Serif', serif;
+}
+
+
+
+
+/* Barra de navegación */
+     /* Personalizacion de la barra de navegacion*/
+        .navbar-custom { 
+            background-color: #5F6184; 
+        } 
+        /* Modificacion de brand y text color */ 
+          
+        .navbar-custom .navbar-brand, 
+        .navbar-custom .navbar-text{ 
+            color: #f1f1f1; 
+            text-align: center;
+            font-family: 'Bree Serif', serif;
+            font-size:20px;
+            padding: 20px;
+        } 
+		/* Modificacion del estilo de las ligas del navegador */
+        .navbar-custom a:hover {
+            background-color: #BEBDBF; 
+            color: black;
+         }
+
+/* imagen principal */
+.bgimg {
+		  background-position: center;
+		  background-size: cover;
+		  background-image: url("../img/foto_estetica.jpg");
+		  min-height: 70%;
+                  max-width:100%
+	}
+/* Logo del nombre */         
+.nombrelogo{
+	color:white;
+	font-size: 90px;
+	font-weight: bold;
+	/*font-family: 'Bree Serif', serif; */
+	text-align: center;
+}
+
+
+/* Estilo del contenido */
+/*pendiente
+.contenido {
+  background-color:  #f1f1f1;
+  padding: 10px;
+  height: auto;
+  
+
+  font-size: 18px;
+ font-family: 'Bree Serif', serif;
+}
+*/
+
+/* Estilo pie de pagina */
+.pie {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/***********************************************************************************************/
+
+
+/**********************************************************************************************/
+
+
+
+
+
+
